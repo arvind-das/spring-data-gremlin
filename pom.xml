@@ -10,13 +10,13 @@
 		<version>2.1.2.RELEASE</version>
 	</parent>
 
-	<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+	<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 	<artifactId>spring-data-gremlin</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<name>Spring Data Gremlin</name>
 	<description>Spring Data module for Gremlin repositories.</description>
-	<url>https://github.com/jespersm/spring-data-gremlin</url>
+	<url>https://github.com/arvind-das/spring-data-gremlin</url>
 
 	<packaging>pom</packaging>
 
@@ -71,22 +71,22 @@
 				<version>${tinkerpop.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+				<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 				<artifactId>spring-data-gremlin-core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+				<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 				<artifactId>spring-data-gremlin-test</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+				<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 				<artifactId>spring-data-gremlin-schemagen-neo4j</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+				<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 				<artifactId>spring-data-gremlin-schemagen-jpa</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -184,6 +184,11 @@
 			<name>Jesper S. Møller</name>
 			<email>jesper@selskabet.org</email>
 		</developer>
+    <developer>
+      <id>Arvid Das</id>
+      <name>Arvind Das</name>
+      <email>dass.arvind@gmail.com</email>
+    </developer>
 	</developers>
 
 	<licenses>
@@ -210,9 +215,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:jespersm/spring-data-gremlin.git</connection>
-		<developerConnection>scm:git:git@github.com:jespersm/spring-data-gremlin.git</developerConnection>
-		<url>git@github.com:jespersm/spring-data-gremlin.git</url>
+		<connection>scm:git:git@github.com:arvind-das/spring-data-gremlin.git</connection>
+		<developerConnection>scm:git:git@github.com:arvind-das/spring-data-gremlin.git</developerConnection>
+		<url>git@github.com:arvind-das/spring-data-gremlin.git</url>
 	</scm>
 
 	<repositories>

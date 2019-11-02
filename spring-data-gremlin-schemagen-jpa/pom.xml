@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+		<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 		<artifactId>spring-data-gremlin</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
@@ -14,7 +14,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+			<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 			<artifactId>spring-data-gremlin-core</artifactId>
 		</dependency>
 		<dependency>
@@ -22,7 +22,7 @@
 			<artifactId>hibernate-jpa-2.1-api</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.github.jespersm.spring-data-gremlin</groupId>
+			<groupId>com.github.arvind-das.spring-data-gremlin</groupId>
 			<artifactId>spring-data-gremlin-test</artifactId>
 		</dependency>
 	</dependencies>
